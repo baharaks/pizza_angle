@@ -13,7 +13,7 @@ training.py: Orchestrates the training process. This script manages the training
 utils.py: Provides additional utility functions that support the training process. These might include functions for metric calculation, result visualization, or data augmentation techniques.
 
 Getting Started
-Environment Setup: Ensure you have Python 3.6+ and PyTorch installed. You may also need additional libraries such as NumPy and Matplotlib, depending on your specific use case.
+Environment Setup: Ensure you have Python 3.7+ and PyTorch installed. You may also need additional libraries such as NumPy and Matplotlib, depending on your specific use case.
 
 Data Preparation: Place your dataset in an accessible directory and make any necessary adjustments to dataset.py to accommodate your data's structure and format.
 
