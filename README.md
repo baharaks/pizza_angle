@@ -30,3 +30,8 @@ License
 This project is open-source and available under the MIT license. Please see the LICENSE file for full details.
 
 This README provides a basic outline of the project. Depending on the specific implementation details and requirements of the scripts, further customization and detailed instructions may be necessary.
+
+Todo list: 
+1. Adding an object detection before the angle detector to detect and localize the pizza slices
+2. Using a triangle detection to detect the border of the pizza slice and use a geometry equation to calculate the angle.
+3. Create a datset/database with more data points.
