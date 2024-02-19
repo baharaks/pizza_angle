@@ -10,10 +10,10 @@ model.py: Contains the neural network architecture. This script defines the Mode
 
 training.py: Orchestrates the training process. This script manages the training loop, including forward passes, loss calculation, backpropagation, and model updates. It also handles the evaluation of the model on the validation dataset.
 
-utils.py: Provides additional utility functions that support the training process. These might include functions for metric calculation, result visualization, or data augmentation techniques.
+utils.py: Provides additional utility functions that support the training process. These includes functions for metric calculation.
 
 Getting Started
-Environment Setup: Ensure you have Python 3.7+ and PyTorch installed. You may also need additional libraries such as NumPy and Matplotlib, depending on your specific use case.
+Environment Setup: Ensure you have Python 3.7+ and PyTorch installed. To install requirments run this pip install -r requirements.txt
 
 Data Preparation: Place your dataset in an accessible directory and make any necessary adjustments to dataset.py to accommodate your data's structure and format.
 
@@ -30,3 +30,8 @@ License
 This project is open-source and available under the MIT license. Please see the LICENSE file for full details.
 
 This README provides a basic outline of the project. Depending on the specific implementation details and requirements of the scripts, further customization and detailed instructions may be necessary.
+
+Todo list: 
+1. Adding an object detection before the angle detector to detect and localize the pizza slices
+2. Using a triangle detection to detect the border of the pizza slice and use a geometry equation to calculate the angle.
+3. Create a datset/database with more data points.
